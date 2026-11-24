@@ -1,0 +1,20 @@
+# 敏感凭证 / 本地状态（绝不提交）
+.workbuddy/skills/student-report/data/
+**/token_cache.json
+**/installation_id.json
+**/feishu_snapshot_*.json
+
+# 真实报告输出（含学员隐私 / 大量 base64 图片）
+reports/
+*.html
+*.pdf
+
+# 工作日志与本地记忆
+.workbuddy/memory/
+
+# Python / 系统缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.venv/
